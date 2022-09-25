@@ -1,3 +1,0 @@
-#!/bin/bash
-mkdir -p out
-docker run -v $(pwd)/out/:/tmp/out/ -v $(pwd)/src/:/usr/src/ -ti webserialtoebook $@
